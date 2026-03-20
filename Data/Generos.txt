@@ -1,0 +1,50 @@
+1|Novela clásica
+2|Realismo mágico
+3|Realismo mágico
+4|Cuento
+5|Novela experimental
+6|Novela
+7|Misterio
+8|Realismo mágico
+9|Novela
+10|Teatro
+11|Misterio
+12|Novela histórica
+13|Novela
+14|Novela
+15|Novela erótica
+16|Novela
+17|Novela
+18|Novela psicológica
+19|Cuento
+20|Poesía
+21|Realismo
+22|Naturalismo
+23|Ensayo
+24|Novela
+25|Poesía
+26|Poesía
+27|Novela
+28|Novela
+29|Thriller
+30|Policial
+31|Novela histórica
+32|Aventura
+33|Novela histórica
+34|Thriller
+35|Novela histórica
+36|Novela
+37|Novela
+38|Novela
+39|Terror
+40|Novela corta
+41|Novela
+42|Novela
+43|Memorias
+44|Poesía
+45|Poesía
+46|Ensayo
+47|Novela histórica
+48|Novela
+49|Novela
+50|Thriller

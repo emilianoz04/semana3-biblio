@@ -1,0 +1,50 @@
+1|Miguel de Cervantes
+2|Gabriel García Márquez
+3|Isabel Allende
+4|Jorge Luis Borges
+5|Julio Cortázar
+6|Mario Vargas Llosa
+7|Carlos Ruiz Zafón
+8|Laura Esquivel
+9|Juan Rulfo
+10|Federico García Lorca
+11|Arturo Pérez-Reverte
+12|Julia Navarro
+13|Javier Marías
+14|Roberto Bolaño
+15|Almudena Grandes
+16|Camilo José Cela
+17|Miguel Delibes
+18|Ernesto Sabato
+19|Horacio Quiroga
+20|Pablo Neruda
+21|Benito Pérez Galdós
+22|Emilia Pardo Bazán
+23|Eduardo Galeano
+24|Rosario Castellanos
+25|Antonio Machado
+26|Gustavo Adolfo Bécquer
+27|Pio Baroja
+28|Carmen Laforet
+29|Dolores Redondo
+30|Manuel Vázquez Montalbán
+31|María Dueñas
+32|Matilde Asensi
+33|Santiago Posteguillo
+34|Eva García Sáenz de Urturi
+35|Ildefonso Falcones
+36|Juan Gabriel Vásquez
+37|Laura Restrepo
+38|Fernando Aramburu
+39|Mariana Enríquez
+40|Samanta Schweblin
+41|Clarice Lispector
+42|Luis Sepúlveda
+43|Jorge Edwards
+44|Alfonsina Storni
+45|Gabriela Mistral
+46|Octavio Paz
+47|Alejo Carpentier
+48|José Donoso
+49|Rosa Montero
+50|Juan Gómez-Jurado
