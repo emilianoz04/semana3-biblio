@@ -1,0 +1,50 @@
+1|Don Quijote de la Mancha
+2|Cien años de soledad
+3|La casa de los espíritus
+4|Ficciones
+5|Rayuela
+6|La ciudad y los perros
+7|La sombra del viento
+8|Como agua para chocolate
+9|Pedro Páramo
+10|Bodas de sangre
+11|El club Dumas
+12|Dime quién soy
+13|Corazón tan blanco
+14|Los detectives salvajes
+15|Las edades de Lulú
+16|La colmena
+17|Los santos inocentes
+18|El túnel
+19|Cuentos de amor de locura y de muerte
+20|Veinte poemas de amor y una canción desesperada
+21|Fortunata y Jacinta
+22|Los pazos de Ulloa
+23|Las venas abiertas de América Latina
+24|Balún Canán
+25|Campos de Castilla
+26|Rimas y Leyendas
+27|El árbol de la ciencia
+28|Nada
+29|El guardián invisible
+30|Los mares del Sur
+31|El tiempo entre costuras
+32|El último Catón
+33|Africanus: el hijo del cónsul
+34|El silencio de la ciudad blanca
+35|La catedral del mar
+36|El ruido de las cosas al caer
+37|Delirio
+38|Patria
+39|Nuestra parte de noche
+40|Distancia de rescate
+41|La hora de la estrella
+42|Un viejo que leía novelas de amor
+43|Persona non grata
+44|Languidez
+45|Desolación
+46|El laberinto de la soledad
+47|El siglo de las luces
+48|El obsceno pájaro de la noche
+49|La hija del caníbal
+50|Reina Roja
