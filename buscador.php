@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Libros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center text-primary">Buscar Libros</h2>
+
+        <form action="" method="GET" class="mb-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <select name="criterio" class="form-select" required>
+                        <option value="">Seleccione criterio</option>
+                        <option value="autor">Autor</option>
+                        <option value="descripcion">Título</option>
+                        <option value="editorial">Editorial</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="valor" class="form-control" placeholder="Ingrese el valor a buscar" required>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Buscar</button>
+                </div>
+            </div>
+        </form>
+
+        <?php if (isset($_GET['criterio']) && isset($_GET['valor'])): ?>
+            <?php
+                $archivo = "./Data/datos.txt";
+                $criterio = $_GET['criterio'];
+                $valor = strtolower($_GET['valor']);
+                $resultados = [];
+
+                if (file_exists($archivo)) {
+                    $file = fopen($archivo, "r");
+
+                    while (($line = fgets($file)) !== false) {
+                        $campos = explode("|", trim($line));
+
+                        // Mapeo correcto según estructura del archivo
+                        $mapa = [
+                            'autor' => 1,
+                            'descripcion' => 2, // título
+                            'editorial' => 4
+                        ];
+
+                        // Mejora: validar existencia antes de buscar
+                        if (isset($mapa[$criterio]) && isset($campos[$mapa[$criterio]])) {
+                            if (stripos($campos[$mapa[$criterio]], $valor) !== false) {
+                                $resultados[] = $campos;
+                            }
+                        }
+                    }
+
+                    fclose($file);
+                }
+            ?>
+
+            <h4 class="text-secondary">Resultados:</h4>
+
+            <table id="datatable" class="display">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Género</th>
+                        <th>Editorial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($resultados as $libro): ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($libro[0]); ?></td>
+                            <td><?php echo htmlspecialchars($libro[2]); ?></td>
+                            <td><?php echo htmlspecialchars($libro[1]); ?></td>
+                            <td><?php echo htmlspecialchars($libro[3]); ?></td>
+                            <td><?php echo htmlspecialchars($libro[4]); ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+
+        <?php endif; ?>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#datatable').DataTable({
+                language: {
+                    url: "//cdn.datatables.net/plug-ins/1.11.5/i18n/es_es.json"
+                }
+            });
+        });
+    </script>
+</body>
+</html>
