@@ -1,50 +1,50 @@
-1|Francisco de Robles
-2|Sudamericana
-3|Plaza & Janés
-4|Sur
-5|Sudamericana
-6|Seix Barral
-7|Planeta
-8|Planeta
-9|Fondo de Cultura Económica
-10|Cruz y Raya
-11|Alfaguara
-12|Plaza & Janés
-13|Anagrama
-14|Anagrama
-15|Tusquets
-16|Emecé
-17|Planeta
-18|Sur
-19|Sociedad Cooperativa Editorial
-20|Nascimento
-21|La Guirnalda
-22|Daniel Cortezo
-23|Siglo XXI
-24|Fondo de Cultura Económica
-25|Renacimiento
-26|Librería de Gaspar y Roig
-27|Renacimiento
-28|Destino
-29|Destino
-30|Planeta
-31|Temas de Hoy
-32|Plaza & Janés
-33|Ediciones B
-34|Planeta
-35|Grijalbo
-36|Alfaguara
-37|Alfaguara
-38|Tusquets
-39|Anagrama
-40|Almadía
-41|Siruela
-42|Tusquets
-43|Barral Editores
-44|Biblioteca de La Nación
-45|Instituto de las Españas
-46|Cuadernos Americanos
-47|Compañía General de Ediciones
-48|Seix Barral
-49|Espasa
-50|Ediciones B
+Francisco de Robles
+Sudamericana
+Plaza & Janés
+Sur
+Sudamericana
+Seix Barral
+Planeta
+Planeta
+Fondo de Cultura Económica
+Cruz y Raya
+Alfaguara
+Plaza & Janés
+Anagrama
+Anagrama
+Tusquets
+Emecé
+Planeta
+Sur
+Sociedad Cooperativa Editorial
+Nascimento
+La Guirnalda
+Daniel Cortezo
+Siglo XXI
+Fondo de Cultura Económica
+Renacimiento
+Librería de Gaspar y Roig
+Renacimiento
+Destino
+Destino
+Planeta
+Temas de Hoy
+Plaza & Janés
+Ediciones B
+Planeta
+Grijalbo
+Alfaguara
+Alfaguara
+Tusquets
+Anagrama
+Almadía
+Siruela
+Tusquets
+Barral Editores
+Biblioteca de La Nación
+Instituto de las Españas
+Cuadernos Americanos
+Compañía General de Ediciones
+Seix Barral
+Espasa
+Ediciones B

@@ -1,23 +1,35 @@
 <?php
-$archivoentrada = "./Libroscsv.csv";
-$archivosalida = "./Data/datos.txt";
+$autores = fopen('./Data/Autores.txt', 'r');
+$titulos = fopen('./Data/Titulos.txt', 'r');
+$generos = fopen('./Data/Generos.txt', 'r');
+$editoriales = fopen('./Data/Editoriales.txt', 'r');
 
-if (!is_readable($archivoentrada)) 
-    {
-        echo "No se puede leer el archivo\n";
-        exit;
-    }
-$input = fopen($archivoentrada, "r");
-$output = fopen($archivosalida, "w");
-while (($datos = fgetcsv($input)) !== false) 
-    {
-    // unir directamente con |
-    $linea = implode("|", $datos);
+$salida = fopen('./Data/datos.txt', 'w');
+
+$id = 1;
+while (
+    ($autor = fgets($autores)) !== false &&
+    ($titulo = fgets($titulos)) !== false &&
+    ($genero = fgets($generos)) !== false &&
+    ($editorial = fgets($editoriales)) !== false
+) 
+{
+    $linea = $id . "|" .
+             trim($autor) . "|" .
+             trim($titulo) . "|" .
+             trim($genero) . "|" .
+             trim($editorial);
+
+    fwrite($salida, $linea . PHP_EOL);
     echo $linea . "\n";
-    // escribir en el archivo
-    fwrite($output, $linea . PHP_EOL);
-    }
-fclose($input);
-fclose($output);
-echo "Archivo generado correctamente\n";
+    $id++;
+}
+fclose($autores);
+fclose($titulos);
+fclose($generos);
+fclose($editoriales);
+fclose($salida);
+
+echo "Archivo datos.txt generado correctamente.\n";
+
 ?>
